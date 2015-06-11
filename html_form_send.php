@@ -1,3 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>mXers Headphones | Changing Music One Part At a Time</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">mXers</a> Headphones</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#" class="icon fa-angle-down">Menu</a>
+								<ul>
+									<li>
+                                        <a href="#">About Us</a>
+                                        <ul>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#">The Team</a></li>    
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">The Product</a>
+                                        <ul>
+                                        <li><a href="lego.html">The Lego Effect</a></li>
+                                        <li><a href="options.html">Customizable Options</a></li>    
+                                        </ul>
+                                    </li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container 75%">
+					
+					<div class="box">
+
 <?php
 if(isset($_POST['email'])) {
 	
@@ -11,7 +58,7 @@ if(isset($_POST['email'])) {
 		// your error code can go here
 		echo "We're sorry, but there's errors found with the form you submitted.<br /><br />";
 		echo $error."<br /><br />";
-		echo "Please go back and fix these errors.<br /><br />";
+		echo "Please go <a href='contact.html'>back</a> and fix these errors.<br /><br />";
 		die();
 	}
 	
@@ -70,10 +117,41 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
 
 <!-- place your own success html below -->
+					<header>
+						<center><h2>Thank You!</h2>
+						<p>Thank you for contacting us. We will be in touch with you very soon.</p></center>
+					</header>
 
-Thank you for contacting us. We will be in touch with you very soon.
+</div>
+				</section>
 
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.twitter.com/Team_mXers" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/mxersmusic" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://instagram.com/TeammXers/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://plus.google.com/108165443441743316907" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Team mXers. All rights reserved.</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 <?php
 }
 die();
 ?>
+
+	</body>
+</html>
