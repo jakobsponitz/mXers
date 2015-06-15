@@ -1,163 +1,481 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-        <title>mXers Headphones | Changing Music One Part At a Time</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <link rel="shortcut icon" href="favicon.png" type="image/png" />
-	</head>
-	<body class="landing">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+          
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="A free Bootstrap powerd HTML template exclusively crafted for the super lazy designers like me who designed thousand of websites till today but never got a chance to build one himself.">
+    <meta name="keywords" content="Free Portfolio Template, Free Template, Free Bootstrap Template, Dribbble Portfolio Template, Free HTML5 Template">
+    <meta name="author" content="EvenFly Team">
+    
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>mXers Headphones | Changing Music One Part At a Time</title>
+    
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+     
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css">
+        
+    <!-- ===========================
+    ICONS: 
+    =========================== -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">    
+    
+    <!-- ===========================
+    GOOGLE FONTS
+    =========================== -->    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1><a href="index.html">mXers</a> Headphones</h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-									<li><a href="#">About Us</a>
-                                        <ul>
-                                        <li><a href="the_team.html">The Team</a></li>    
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">The Product</a>
-                                        <ul>
-                                        <li><a href="lego.html">The Lego Effect</a></li>
-                                        <li><a href="options.html">Customizable Options</a></li>    
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
-							</li>
-						</ul>
-					</nav>
-				</header>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  <!-- ===========================
+   GOOGLE ANALYTICS (Optional)
+   =========================== -->
+    
+    <!--Replace this line with your analytics code-->
+     
+    <!-- Analytics end-->
+  
+   </head>
+    <body data-spy="scroll">
+        <!-- Preloader -->
+        <div id="preloader">           
+            <div id="status">
+                <div class="loadicon icon-moustache wow tada infinite" data-wow-duration="8s"></div>
+            </div>
+        </div>
+        
+       <header>               
+        <!-- ===========================
+        HERO AREA
+        =========================== -->
+        <div id="hero">           
+            <div class="container herocontent">               
+                <h2 class="wow fadeInUp" data-wow-duration="2s">mXers Headphones</h2>                
+                <h4 class="wow fadeInDown" data-wow-duration="3s">Changing Music One Part At a Time.</h4>            
+            </div>
+            
+            <!-- Featured image on the Hero area -->
+            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="img/hero.png" alt="Featured Work">            
+        </div><!--HERO AREA END-->        
+        
+        <!-- ===========================
+         NAVBAR START
+         =========================== -->
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+               <div class="container">
+                   
+                      <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                        
+                           <a class="navbar-brand" href="#hero">
+                            <!-- Replace Drifolio Bootstrap with your Site Name and remove icon-grid to remove the placeholder icon -->
+                            <span class="brandicon icon-grid"></span>
+                            <span class="brandname">mXers Headphones</span>
+                        </a>
+                    </div>
 
-			<!-- Banner -->
-				<section id="banner">
-					<h2>mXers Headphones</h2>
-					<p>Changing Music One Part At A Time</p>
-					<ul class="actions">
-						<li><a href="#Beta" class="button special">Sign Up</a></li>
-						<li><a href="#Welcome" class="button">Learn More</a></li>
-					</ul>
-				</section>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
+                        <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
+                        <li><a href="#services"><span class="btnicon icon-cup"></span>Our Product</a></li>
+                        <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Our Team</a></li>
+                        
+                        <!--don't forget to replace my email address below with yours-->
+                        <li><a href="mailto:teammxers@gmail.com"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
+                    </ul>
+                
+                </div><!--.nav-collapse -->
+            </div>
+        </nav><!--navbar end-->        
+     </header><!--header end-->     
 
-			<!-- Main -->
-				<section id="main" class="container">
-						<A Name="Welcome"></A>
-					<section class="box special">
-                        <header class="major">
-							
-                            <h2>Welcome to mXers</h2>
-							<p>We at mXers are deicated to giving our customers a completely tailered and individual listening experience. Not only do we produce headphones, but also inner earbuds. Our products come in customizable                                sets, complete with a fully disassembled pair of earbuds and one additional peice of each part.</p>
-						</header>
-						<span class="image featured"><img src="images/Customization%20Slide.png" alt="" /></span>
-					</section>
+    <!-- ===========================
+    ABOUT SECTION START
+    =========================== -->
+     <div id="about" class="container">
+        
+        <!-- LEFT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6">
+            <div class="row">
+             <h2 class="wow fadeInDown" data-wow-duration="2s">Welcome to mXers</h2>
 
-					<section class="box special features">
-						<div class="features-row">
-							<section>
-								<span class="icon major fa-bolt accent2"></span>
-								<h3>Rigid Construction</h3>
-								<p>Our product is built with the utmost of quality in mind. They are built with strength and integrity to make sure that they last. </p>
-							</section>
-							<section>
-								<span class="icon major fa-area-chart accent3"></span>
-								<h3>Finest Materials</h3>
-								<p>During manufacturing our product is constructed with only the highest grade materials.</p>
-							</section>
-						</div>
-						<div class="features-row">
-							<section>
-								<span class="icon major fa-cloud accent4"></span>
-								<h3>Supreme Audio Quality</h3>
-								<p>Experience music the way it should sound. MXers introduces ultimate audio quality featuring a full range of attacking bass, natural vocals and precision highs.</p>
-							</section>
-							<section>
-								<span class="icon major fa-lock accent5"></span>
-								<h3>Easily Reparable</h3>
-								<p>Modularity is the key to the success of mXers Headphones. Most parts are easily replaceable with a twist and snap.</p>
-							</section>
-						</div>
-					</section>
+             <h4 class="wow fadeInUp" data-wow-duration="3s">We at mXers are dedicated to giving our customers a completely tailered and individual listening                    experience.</h4>
+             
+             <p class="wow fadeInDown" data-wow-duration="3s">Not only do we produce headphones, but also inner earbuds. Our products come in customizable sets, complete with a fully disassembled pair of earbuds and one additional peice of each part.</p>
+             <p class="wow fadeInDown" data-wow-duration="3s">Snap out the old one and then snap and twist in a replacement until you hear the click. The same goes for the wires, put them into the splitter then just snap and twist.</p>
+             
+             </div> <!-- ABOUT INFO END -->
+             
+         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+        <!--Left part end-->
+         
+         <!-- RIGHT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
+             <img src="img/Demonstration%20Step%203%20vertical.png" alt="Mamun Srizon">
+         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
+     </div><!-- ABOUT SECTION END -->
+        
+    <hr><!-- SECTION SEPARETOR LINE -->
+        
+    <!-- ===========================
+    SERVICE SECTION START
+    =========================== -->
+    <div id="services" class="container">
+       
+        <!-- SERVICE SECTION HEADING START -->
+        <div class="sectionhead  row wow fadeInUp">
+            <span class="bigicon icon-cup "></span>
+            <h3>Our Product</h3>
+            <hr class="separetor">
+         </div><!--SERVICE SECTION HEADING END-->
+         
+        <!-- SERVICE ITEMS START -->
+        <div class="row">
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/s1.png" alt="">
+                   <h4>Rigid Construction</h4>
+                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
+                </div> <!-- ITEM END -->
 
-					<div class="row">
-						<div class="6u 12u(narrower)">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/s2.png" alt="">
+                   <h4>Finest Material</h4>
+                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
+                </div> <!-- ITEM END -->
 
-							<section class="box special">
-								<span class="image featured"><img src="images/Demonstration%20Step%203.png" alt="" /></span>
-								<h3>The Lego Effect</h3>
-								<p>Remember Legos? Those wonderful, amazing pieces of plastic that brought out the creative side out of all of us? Well they REALLY brought the creative side out of us here at Team mXers.</p>
-								<ul class="actions">
-									<li><a href="lego.html" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/s3.png" alt="">
+                   <h4>Supreme Audio Quality</h4>
+                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
+                </div> <!-- ITEM END -->
 
-						</div>
-						<div class="6u 12u(narrower)">
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/s4.png" alt="">
+                   <h4>Infinite Customizable Options</h4>
+                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
+                </div> <!-- ITEM END -->
 
-							<section class="box special">
-								<span class="image featured"><img src="images/New1.png" alt="" /></span>
-								<h3>Infinite Customizable Options</h3>
-								<p>Choose from a variety of colors, ranging from colorful hues to deep contrasts. Choice is more than just having different products. It’s being given choices in how you use them. There are thousands                                    of way to make your mXers unique..</p>
-								<ul class="actions">
-									<li><a href="options.html" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/s5.png" alt="">
+                   <h4>Easily Repairable</h4>
+                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
+                </div> <!-- ITEM END -->
 
-						</div>
-					</div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/joe.jpg" alt="">
+                   <h4><STRONG>NEED TEXT HERE!</STRONG></h4>
+                   <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
+                </div> <!-- ITEM END -->
+        </div><!-- SERVICE ITEMS END-->
+    </div><!-- SERVICE SECTION END -->
+    
+    <!-- ===========================
+    OUR PEOPLE START
+    =========================== -->
+    <div id="testimonials" class="container">
+        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+           <span class="bigicon icon-bubbles"></span>
+           <h3>Our Team</h3>
+           <h4>We really care about <strong>our people</strong> and we can prove it.</h4>
+           <hr class="separetor">            
+        </div><!-- TESTIMONIAL SECTIONHEAD END -->
+        
+        <!-- OUR PEOPLE START -->
+        <div class="row">
+            <!-- OUR PEOPLE ITEM -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/bharat.jpeg" alt="Bharat">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Bharat Pulgam is a junior at Wayzata High School who is currently involved in multiple different projects and     holds leadership                                positions at his high school. In the winter of 2015 Bharat started mXers after breaking multiple     pairs of headphones and being                                  frustrated at paying a high premium for good sound quality and appearance.     After taking his idea to an incubator program called                                catapult in Chicago his idea was received well at an     promising investor pitch where his team was given lots of positive feedback which                          propelled bharat to restart mXers in Minneapolis. Working since December 2014 Bharat has worked hard to make sure mXers is able to deliver                          the best possible listening experience to the everyday listers in today’s world.</p>                        
+                    </blockquote>
+                    <h5>Bharat Pulgam</h5>
+                    <p>CEO</p>
+                </div>                
+            </div><!-- 1ST TESTIMONIAL ITEM END -->
+            
+            <!-- SUKHWINDER START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Bill">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et. lorem</p>                        
+                    </blockquote>
+                    <h5>Sukhwinder Kaur</h5>
+                    <p>Branding Officer</p>
+                </div>                
+            </div><!-- SUKHWINDER END -->
+            
+            <!-- RACHEL START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Rachel Pfutzenreuter">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                    </blockquote>
+                    <h5>Rachel Pfutzenreuter</h5>
+                    <p>Branding Officer</p>
+                </div>                
+            </div><!-- RACHEL END -->
+            
+            <!-- NICK START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Nicholas Kessler">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Nick Kessler is currently a junior at Wayzata High School who holds positions of leadership in the clubs and activities he attends and                             works hard academically. Kessler is an avid music-listener who takes pride in a high-quality audio experience. In his spare time,                                 Kessler also enjoys reading, watching anime, running, and hanging out with friends. In June of 2015 Kessler joined mXers as a Technology                           Officer and began his work for the company. 
+                           <br>
+                           <br>
+                           After beginning his work at mXers, Kessler has been gaining experience in the engineering field and looks forward to seeing mXers into                            prosperity, as well as bringing a customizable, comfortable, quality musical experience to the world. In the future, Kessler intends to                            pursue a career in surgery or computer science.
 
-				</section>
 
-			<!-- CTA -->
-				<section id="cta">
-                    <A NAME="Beta"></A>
 
-					<h2>Sign up for beta access</h2>
-					<p>To get updates on the product, and learn more about mxers give us your email!</p>
+</p>                        
+                    </blockquote>
+                    <h5>Nick Kessler</h5>
+                    <p>Technology Officer</p>
+                </div>                
+            </div><!-- NICK END -->
+             <!-- ERIK START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/Erik.png" alt="Erik Aadalen">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Erik Aadalen is a junior at Wayzata High School. He holds a 4.0 GPA, and is involved in numerous sports/volunteering activities through                           the school. He is a devoted worker that won’t stop until a task is completed. mXers is his first job as part of an incorporated company,                           and he is excited to watch the company progress and aid the lives of many people. He holds the title of Technology Officer/Engineering                             Chair at Mxers, which involves product development. Erik believes that through innovation, compounded with the concept of modular                                 headphones, mXers will give people a cheaper, easier-to-replace brand of headphones, while still maintaining optimal music quality.</p>                        
+                    </blockquote>
+                    <h5>Erik Aadalen</h5>
+                    <p>Technology Officer</p>
+                </div>                
+            </div><!-- ERIK END -->
+             <!-- NATALIE START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Natalie Larkin">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                    </blockquote>
+                    <h5>Natalie Larkin</h5>
+                    <p>Financial Officer</p>
+                </div>                
+            </div><!-- NATALIE END -->
+             <!-- ZACHARY START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Zachary Kennedy">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Zach Kennedy is a senior at Wayzata High School. Zach is involved in BPA (competes in Economics) and DECA (competes in Financial                                   Consulting). He also holds leadership positions on the Varsity swim team and Link Crew. [Zach likes long walks on the beach and enjoys                             listening to the Foo Fighters] He has always been intrigued by the economy and finance, which suits his position as a Financial Officer                           on the Team mXer’s team. His capabilities don’t stop at finance; he does (used to) freelance animation and graphic design as well. 
+                            <br>
+                            <br>
+                           Currently, while not doing work for Team mXers, Zach is working part-time as a Lifeguard at Lifetime Fitness. He wants to help grow the                            Team Mxers business into a modular dynasty… Where Beats and Bose are a thing of the past.</p>                        
+                    </blockquote>
+                    <h5>Zachary Kennedy</h5>
+                    <p>Financial Officer</p>
+                </div>                
+            </div><!-- ZACH END -->
+             <!-- JARRETT START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Jarrett Heflin">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                    </blockquote>
+                    <h5>JJ Heflin</h5>
+                    <p>Outreach Officer</p>
+                </div>                
+            </div><!-- JARRET END -->
+             <!-- SAMEER START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Sameer Khan">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                    </blockquote>
+                    <h5>Sameer Khan</h5>
+                    <p>Marketing Officer</p>
+                </div>                
+            </div><!-- SAMEER END -->
+             <!-- SHANNON START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Shannon Faulkner">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                    </blockquote>
+                    <h5>Shanon Faulkner</h5>
+                    <p>Marketing Officer</p>
+                </div>                
+            </div><!-- SHANNON END -->
+             <!-- DHRUV START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/Dhruv.png" alt="Dhruv Methi">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Dhruv Methi is a junior at Wayzata High School. He has a passion for golf, biology, and business, and has been a part of numerous                                 extracurricular activities including Robotics, Quiz Bowl, and Debate (his favorite activity). As a part of the debate team, he has won                             numerous national level awards, and hopes to carry this success over the next couple of years in which he will hold a leadership                                   position on the team. 
+                        <br>
+                        <br>
+                        Dhruv is currently the Sales Officer at mXers. Ever since his mother started an apparel company several years ago, he has been fascinated                         by business and entrepreneurship. He is excited to have the opportunity to be part of a startup, and looks forward to helping the company                         grow and develop. </p>                        
+                    </blockquote>
+                    <h5>Dhruv Methi</h5>
+                    <p>Sales Officer</p>
+                </div>                
+            </div><!-- DHRUV END -->
+             <!-- OWEN START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Owen Rahm">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                    </blockquote>
+                    <h5>Owen Rahm</h5>
+                    <p>Sales Officer</p>
+                </div>                
+            </div><!-- OWEN END -->
+             <!-- EMMA START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/joe.jpg" alt="Emma Pelc">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>                        
+                    </blockquote>
+                    <h5>Emma Pelc</h5>
+                    <p>Secretary</p>
+                </div>                
+            </div><!-- EMMA END -->
+             <!-- JAKOB START -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/jakob.jpg" alt="Jakob Sponitz">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Jakob Sponitz is a sophomore at Wayzata High School. He is(was) involved in many different extracurricular activities including:                                   basketball and BPA (Business Professionals of America). His grandfather owns a consumer electronic repair business. As a child, Jakob                             loved learning new things from the computer repair technicians who taught him many things from building websites to repairing computers,                           and so the love began. Ever since, Jakob has been ‘tinkering’ with such products.
+                           <br>
+                           <br>
+                          In September of 2013. Jakob founded ‘Minneapolis Technologies’ a small corporation that; repairs computers, builds websites, builds                               computers, maintains computers, and other sorts of services.His love for technology made the company thrive until in September of 2015,                           he layed the company to rest. The start of highschool for him, deterred him from maintaining and upkeeping the business.
+                           <br>
+                           <br>
+                        Currently, Jakob is the website developement lead at a ‘startup’ corporation called: Team mXers. He is looking forward to an exciting                             opportunity.</p>                        
+                    </blockquote>
+                    <h5>Jakob Sponitz</h5>
+                    <p>Website Development Lead</p>
+                </div>                
+            </div><!-- 4TH TESTIMONIAL ITEM END -->
+        </div>        
+    </div><!-- TESTIMONIAL SECTION END -->
+       
+        <!-- ===========================
+    FOOTER START
+    =========================== -->    
+    <footer>
+        <div class="container">
+            <span class="bigicon icon-speedometer "></span>
+             
+            <div class="footerlinks"><!-- FOOTER LINKS START -->            
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Our Product</a></li>
+                    <li><a href="#testimonials">Our Team</a></li>
 
-					<form>
-						<div class="row uniform 50%">
-							<div class="8u 12u(mobilep)">
-								<input type="email" name="email" id="email" placeholder="Email Address" />
-							</div>
-							<div class="4u 12u(mobilep)">
-								<input type="submit" value="Sign Up" class="fit" />
-							</div>
-						</div>
-					</form>
-
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://www.twitter.com/Team_mXers" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/mxersmusic" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://instagram.com/TeammXers/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://plus.google.com/108165443441743316907" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Team mXers. All rights reserved.</li>
-					</ul>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+                    <!--replace the email address below with your email address-->
+                    <li><a href="mailto:teammxers@gmail.com">Contact</a></li>                   
+                </ul>
+            </div><!-- FOOTER LINKS END -->
+             
+            <div class="copyright"><!-- FOOTER COPYRIGHT START -->
+                <p>&copy; <a href="index.html">Team mXers</a>. All rights reserved.</p>
+            </div><!-- FOOTER COPYRIGHT END -->
+             
+            <div class="footersocial wow fadeInUp" data-wow-duration="3s"><!-- FOOTER SOCIAL ICONS START -->
+                <ul>
+                    <li><a href="https://www.facebook.com/mxersmusic"><span class="icon-social-facebook"></span></a></li>
+                    <li><a href="https://www.twitter.com/Team_mXers"><span class="icon-social-twitter"></span></a></li>
+                 </ul>
+             </div><!-- FOOTER SOCIAL ICONS END -->
+         </div>
+     </footer><!-- FOOTER END -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
+    <!--Other necessary scripts-->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+    <script src="js/drifolio.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>    
+  </body>
 </html>
